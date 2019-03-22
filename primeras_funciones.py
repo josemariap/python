@@ -10,3 +10,16 @@ def bye():
 
 print(bye())
 
+def suma(num1, num2):
+	return num1 + num2
+
+
+print(suma(21,6))
+
+
+resultado = suma(3, 6)
+
+print(resultado)
+
+
+
