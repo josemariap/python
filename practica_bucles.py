@@ -23,3 +23,19 @@ else:
 #range
 for i in range(8): #racorre rango del 0 al 7
 	print(i)
+	print(f"La posicion de la lista contiene: {i} " ) #unimos en un string texto mas valor de variable
+
+
+for i in range(3,9): #racorre rango del 3 al 8
+	print(i)
+
+for i in range(4,40, 2): #racorre rango del 4 al 39 con salto de 2
+	print(i)
+
+
+print("**********************************************************")
+
+name=[1,3,5,2,66,7]
+#range con lenght
+for i in range(len(name)): #recorro la longitud de la lista
+    print(name[i]) 
