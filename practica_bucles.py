@@ -39,3 +39,20 @@ name=[1,3,5,2,66,7]
 #range con lenght
 for i in range(len(name)): #recorro la longitud de la lista
     print(name[i]) 
+
+#################################
+
+# continue y pass
+for i in range(4,40, 2): #racorre rango del 4 al 39 con salto de 2
+    if i == 10:##i con valor 10 será ignorado
+      continue #ignora lo que queda por hacer en esa vuelta de bucle y pasa a la siguiente iteracion
+    print(i)
+
+
+for i in range(4,40, 2): 
+    if i == 10:
+      break #sale del for totalmente
+    print(i)
+
+
+
