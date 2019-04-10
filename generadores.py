@@ -31,6 +31,18 @@ print(next(devuelveParesDeAuno)) # segunda  ""
 
 print(next(devuelveParesDeAuno)) # tercera  ""
 
+print("********************** yield from")
+
+def devuelve_ciudades(*ciudades):  #el asterisco es para poder pasar la cantidad que queremos de parametros
+	for elemento in ciudades:
+		yield from elemento   #from hace que se genere cada elemento en el yield y a su vez los elementos de cada elemento(como dos for anidados para recorrer una matriz)
+
+
+letrasCiudades=devuelve_ciudades("Roma", "Buenos aires", "Virginia")
+
+for subElemento in letrasCiudades:
+	print(subElemento)
+
 
 
         
