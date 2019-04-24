@@ -1,3 +1,4 @@
+
 # exceptions
 
 def suma(num1, num2):
@@ -16,11 +17,18 @@ def divide(num1,num2):
 	 	print("No esta permitido la division por 0")
 	 	return "Error en la operación"
 
+while True:
+    try:
+	    op1=(int(input("Introduce el primer número: ")))
+	    op2=(int(input("Introduce el segundo número: ")))
+	    break
+          
+    except ValueError:
+        print("No se puede ingresar letras")
+		
+
 	
-
-op1=(int(input("Introduce el primer número: ")))
-
-op2=(int(input("Introduce el segundo número: ")))		
+		
 	
 operacion=input("Introduce la operación a realizar (suma,resta,multiplica,divide): ")
 
