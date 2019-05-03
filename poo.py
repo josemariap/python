@@ -11,7 +11,7 @@ class Coche():
 
     def __chequeo_interno(self):
         print("Chequeando estado del auto antes de arrancar..")
-        self.gasolina="or"
+        self.gasolina="ok"
         self.aceite="ok"
         self.puertas="cerradas"
         if(self.gasolina=="ok" and self.aceite=="ok" and self.puertas=="cerradas"):
