@@ -61,5 +61,5 @@ miCamioneta.carga(True)
 miCamioneta.estado()
 
 # puedo tener multiple herencia
-class MotoDeCarga(Moto, Furgoneta):  #hereda de Moto y de Furgoneta
+class MotoDeCarga(Moto, Furgoneta):  #hereda de Moto y de Furgoneta, toma el constructor si es que lo tiene, de la primera clase que hereda, o sea Moto
     pass
