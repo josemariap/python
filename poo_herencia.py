@@ -1,7 +1,7 @@
 # herencia
 
 class Vehiculo():
-    def __init_(self, marca, modelo):
+    def __init__(self, marca, modelo):
         self.marca=marca
         self.modelo=modelo
         self.enmarca=False
@@ -9,23 +9,26 @@ class Vehiculo():
         self.frena=False
         
     def arrancar(self):
-        self.arrancar=True
+        self.enmarca=True
         
     def frenar(self):
         self.frena=True
         
     def acelerar(self):
-        self.frena=True
+        self.celera=True
         
     def estado(self):
-        print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\n En marcha: ", self.enmarca, "\n Acelerando: ", self.acelera, "\n Frenando: ", self.frena)
+        print("Marca: ", self.marca, "Modelo: ", self.modelo, "En marcha: ", self.enmarca, "Acelerando: ", self.acelera, "Frenando: ", self.frena)
 
 
-# LA clase Moto hereda de Vehiculo
+# La clase Moto hereda de Vehiculo
 
 class Moto(Vehiculo):
     pass
 
 
+miMoto=Moto("Honda", "cbr")
+
+miMoto.estado()
 
 
