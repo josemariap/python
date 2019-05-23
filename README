@@ -1,3 +1,4 @@
 Python
 
 Cuando creamos un paquete en pyhton, es crear un directorio con un archivo __init__.py dentro, para que el interprete de python sepa que es un paquete
+Tener en cuenta que cuando ejecutamos los script con el comando pyhton ciertas veces puede tener algun error, probar conrrerlo con python3
